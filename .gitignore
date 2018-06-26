@@ -1,0 +1,7 @@
+# Ignore the build and test environment folders for now
+
+node_modules
+
+build
+
+dist
