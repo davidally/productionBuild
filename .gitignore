@@ -6,7 +6,7 @@ build
 
 dist
 
-.cache
+*.cache
 
 *.css.map
 *.sass.map
