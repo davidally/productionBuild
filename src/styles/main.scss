@@ -1,0 +1,20 @@
+@import '0-plugins/0-plugins';
+@import '1-helpers/1-helpers';
+@import '2-base/2-base';
+@import '3-layout/3-layout';
+@import '4-components/4-components';
+@import '5-pages/5-pages';
+
+$messagecolor: blue;
+$bgcolor: powderblue;
+
+body {
+    background-color: $bgcolor;
+}
+#message {
+    color: $messagecolor;
+    font-size: 3em;
+    text-align: center;
+    box-shadow: 1px 2px rgba(0,0,0,.1);
+    transform: scale(0.7);
+}

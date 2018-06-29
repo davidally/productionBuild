@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-env": "cd src && parcel index.html --out-dir ../dist",
-    "build": "cd src && parcel build index.html --out-dir ../build"
+    "start-env": "cd src && parcel index.html --out-dir ../dist --no-cache",
+    "build": "cd src && parcel build index.html --out-dir ../build --no-cache"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "node-sass": "^4.9.0",
+    "postcss-font-magician": "^2.2.1",
     "postcss-preset-env": "^5.2.0",
     "stylelint": "^9.3.0",
     "stylelint-config-standard": "^18.2.0"

@@ -2,6 +2,7 @@
     "plugins": {
         "autoprefixer": true,
         "postcss-preset-env": true,
+        "postcss-font-magician": true,
         "stylelint": {
             "extends": "stylelint-config-standard",
             "rules": {
@@ -20,4 +21,4 @@
             }
         }
     }
-}
+} 

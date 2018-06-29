@@ -5,3 +5,7 @@ node_modules
 build
 
 dist
+
+*.css.map
+*.sass.map
+*.scss.map
